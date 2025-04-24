@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gradient-to-br from-purple-500 to-indigo-500;
+  font-family: 'Inter', sans-serif;
+  padding: 0rem;
+  transform-origin: top;
+  transform: scale(0.8);
+}
